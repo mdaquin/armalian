@@ -1,0 +1,276 @@
+
+* {
+  padding: 0px;
+  margin: 0px;
+  border: 0px;
+  font-family: Sans, Verdana;
+}
+
+
+body {
+  width: 100%;
+}
+
+#header{
+    width: 100%;
+    background: #ccc;
+    overflow: auto;
+}
+
+.button{
+    padding: 10px 20px 10px 20px;
+    float: right;
+    background: #888;
+    color: white;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.cancel{
+    background: #444;
+}
+
+
+#main{
+  width: 100%;
+  min-height: 200px;
+  overflow: auto;
+}
+
+#leftcolumn{
+  width: 20%;
+  float: left;
+  min-height: 200px;
+}
+
+#middlecolumn{
+  width: 60%;
+  float: left;
+  min-height: 500px;
+  white-space: pre-wrap;
+  font-family: Courier;
+  font-size: 80%;
+}
+
+#righcolumn{
+  width: 20%;
+  float: left;
+  min-height: 200px;
+}
+
+#lemur{
+width: 100%;
+max-width: 600px;
+margin-right: auto;
+margin-left: auto;
+}
+
+#ntdialog {    
+    width: 80%;
+    min-height: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: white;
+    border: 1px black solid;
+    border-radius: 15px;
+    position: fixed;
+    top: 10%;
+    left: 0;
+    padding: 10px 10px 10px 10px;
+    display: none;
+}
+
+#ltdialog {    
+    width: 80%;
+    min-height: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: white;
+    border: 1px black solid;
+    border-radius: 15px;
+    position: fixed;
+    top: 10%;
+    left: 0;
+    padding: 10px 10px 10px 10px;
+    display: none;
+}
+
+#titletext{
+    width: 98%;
+    margin-bottom: 10px;
+    border: 1px #eee solid;
+    padding: 5px 5px 5px 5px;
+}
+
+#authortext{
+    width: 98%;
+    margin-bottom: 10px;
+    border: 1px #eee solid;
+    padding: 5px 5px 5px 5px;
+}
+
+#texttext{
+    width: 98%;
+    margin-bottom: 10px;
+    border: 1px #eee solid;
+    padding: 5px 5px 5px 5px;
+    height: 60vh;
+}
+
+.ltonetext{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-style: italic;
+}
+
+#nabuttons {
+    position: fixed;
+    top: 40%;
+    right: 5%;
+    max-width: 15%;
+    display: none;
+}
+
+.nabutton{
+    float: right;
+    border-radius: 30px;
+    background: grey;
+    margin-left: 10px;
+    align: center;
+    font-size: 30px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+#natips {
+    position: fixed;
+    margin-top: -60px;
+    top: 40%;
+    right: 5%;
+    text-align: right;
+    max-width: 15%;
+    
+}
+
+#afbutton{
+    background: #c22326;
+}
+
+#statbutton{
+    background: #fdb62d;
+}
+
+#argbutton{
+    background: #027878;
+}
+
+#aftip{
+    color: #c22326;
+    display: none;
+}
+
+#stattip{
+    color:  #fdb62d;
+    display: none;
+}
+
+#argtip{
+    color:  #027878;
+    display: none;
+}
+
+#argdialog {    
+    width: 80%;
+    min-height: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: white;
+    border: 1px black solid;
+    border-radius: 15px;
+    position: fixed;
+    top: 10%;
+    left: 0;
+    padding: 10px 10px 10px 10px;
+    display: none;
+}
+
+#propdialog {    
+    width: 80%;
+    min-height: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: white;
+    border: 1px black solid;
+    border-radius: 15px;
+    position: fixed;
+    top: 10%;
+    left: 0;
+    padding: 10px 10px 10px 10px;
+    display: none;
+}
+
+#afdialog {    
+    width: 80%;
+    min-height: 200px;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: white;
+    border: 1px black solid;
+    border-radius: 15px;
+    position: fixed;
+    top: 10%;
+    left: 0;
+    padding: 10px 10px 10px 10px;
+    display: none;
+}
+
+.adtext{
+    width: 98%;
+    margin-bottom: 10px;
+    border: 1px #eee solid;
+    padding: 5px 5px 5px 5px;
+}
+
+.argumentintext{
+    background:  #02787833;
+}
+
+.propositionintext{
+    background:  #fdb62d33;
+}
+
+.aformintext{
+    background: #c2232633;
+}
+
+.argumentdisplay{
+    max-width: 15%;
+    background: #027878;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.propositiondisplay{
+    max-width: 15%;
+    background:  #fdb62d;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+.aformdisplay{
+    max-width: 15%;
+    background:   #c22326;
+    padding: 5px 5px 5px 5px;
+    border-radius: 5px;
+    color: white;
+}
+
